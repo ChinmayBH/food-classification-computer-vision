@@ -55,41 +55,74 @@ You can install the required libraries using the `requirements.txt` file:
 
 ```bash
 pip install -r requirements.txt
+```bash
 
 Setup Instructions
 Clone the repository:
+```bash
+
 git clone https://github.com/your-username/food-101-image-classifier.git
 cd food-101-image-classifier
+```bash
 
+-------
 Download the Food-101 dataset and extract it into the data/ directory.
 
 Install the required libraries:
+```bash
+
 pip install -r requirements.txt
+```bash
 
 Open the Jupyter Notebook or Python script to run the project.
-
+----
 Usage
 Data Preprocessing:
-
 Clean the dataset for wrong labels.
-
 Perform train-test splitting.
 
 Model Training:
-
 Use feature extractors like Inception, ResNet, etc.
-
 Add required layers for classification.
-
 Perform hyperparameter tuning.
 
 Evaluation:
-
 Visualize training and validation metrics (accuracy, loss).
-
 Plot feature maps of the last or second-last section of the classifier.
 
 Inference:
-
 Use the trained model to make predictions on new images.
 
+Project Structure
+```bash
+
+food-101-image-classifier/
+│
+├── data/                     # Folder for dataset
+│   ├── train/                # Training images
+│   └── test/                 # Test images
+│
+├── models/                   # Saved model files
+│   └── trained_model.h5      # Trained model file
+│
+├── notebooks/                # Jupyter notebooks
+│   └── food_classification.ipynb  # Main notebook
+│
+├── scripts/                  # Additional scripts
+│   └── preprocess_data.py    # Data preprocessing script
+│
+├── README.md                 # Project documentation
+├── requirements.txt          # Python dependencies
+└── .gitignore                # Files/folders to ignore in Git
+```bash
+
+Results
+Training and Validation Metrics:
+Accuracy and loss plots for each epoch.
+Hyperparameter:Summary of experiments and their results.
+
+Contact
+For any questions or feedback, please contact:
+Email: Chinmaybhalerao0912@gmail.com
+
+GitHub: https://github.com/ChinmayBH
