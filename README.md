@@ -13,8 +13,7 @@ This repository contains a deep learning-based image classification project usin
 5. [Usage](#usage)
 6. [Project Structure](#project-structure)
 7. [Results](#results)
-8. [Contributing](#contributing)
-9. [License](#license)
+8. [contact](#Contact)
 
 ---
 
@@ -57,7 +56,7 @@ You can install the required libraries using the `requirements.txt` file:
 pip install -r requirements.txt
 ```
 
-Setup Instructions
+## Setup Instructions
 Clone the repository:
 ```bash
 
@@ -76,7 +75,7 @@ pip install -r requirements.txt
 
 Open the Jupyter Notebook or Python script to run the project.
 ----
-Usage
+## Usage
 Data Preprocessing:
 Clean the dataset for wrong labels.
 Perform train-test splitting.
@@ -93,7 +92,7 @@ Plot feature maps of the last or second-last section of the classifier.
 Inference:
 Use the trained model to make predictions on new images.
 
-Project Structure
+## Project Structure
 ```bash
 
 food-101-image-classifier/
@@ -116,12 +115,12 @@ food-101-image-classifier/
 └── .gitignore                # Files/folders to ignore in Git
 ```
 
-Results
+## Results
 Training and Validation Metrics:
 Accuracy and loss plots for each epoch.
 Hyperparameter:Summary of experiments and their results.
 
-Contact
+## Contact
 For any questions or feedback, please contact:
 Email: Chinmaybhalerao0912@gmail.com
 
