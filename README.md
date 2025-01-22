@@ -60,7 +60,7 @@ pip install -r requirements.txt
 Clone the repository:
 ```bash
 
-git clone https://github.com/your-username/food-101-image-classifier.git
+git clone https://github.com/ChinmayBH/food-classification-computer-vision.git
 cd food-101-image-classifier
 ```
 
